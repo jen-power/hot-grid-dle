@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: "Roboto Slab", serif;
+  font: normal 100%/1.3 "Roboto Slab", serif;
 }
 
 *, *::before, *::after {
@@ -40,16 +40,4 @@ figcaption {
   left: .5rem;
   bottom: .5rem;
   max-width: 15em;
-}
-
-.hidden {
-  display: none;
-}
-
-@media only screen and (min-width: 60em) {
-
-  .hidden {
-    display: block;
-  }
-
 }
